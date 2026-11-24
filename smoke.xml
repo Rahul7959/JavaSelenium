@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  <include name ="smoke"> </include>
+  </run>
+  </groups>
+    <classes>
+      <class name="TESTNGTOOLS.DeleteCustomer"/>
+      <class name="TESTNGTOOLS.UpdateCustomer"/>
+      <class name="TESTNGTOOLS.CreateCustomer"/>
+      <class name="TESTNGTOOLS.ModifiedCustomer"/>
+      
+      <class name="TESTNGTOOLS.AddCustomer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

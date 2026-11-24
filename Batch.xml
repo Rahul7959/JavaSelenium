@@ -1,0 +1,11 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNg.DeleteStudent"/>
+      <class name="TestNg.CreateStudent"/>
+      <class name="TestNg.UpdateStudent"/>
+      <class name="TestNg.AddStudent"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

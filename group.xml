@@ -1,0 +1,17 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  
+  <include name="Smoke"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="TESTNGCODE.CreateCustomer"/>
+      <class name="TESTNGCODE.DeleteCustomer"/>
+      <class name="TESTNGCODE.UpdateCustomer"/>
+      <class name="TESTNGCODE.InsertCustomer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

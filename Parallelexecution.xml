@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="tests">
+  <test thread-count="1" name="Test1">
+    <classes>
+      <class name="TESTNGCODE.CreateCustomer"/>
+      </classes>
+      </test>
+      
+      
+      <test thread-count="1" name="Test2">
+      <classes>
+      <class name="TESTNGCODE.DeleteCustomer"/>
+      </classes>
+      </test>
+      
+      <test thread-count="1" name="Test3">
+      <classes>
+      <class name="TESTNGCODE.UpdateCustomer"/>
+      </classes>
+      </test>
+      
+      <test thread-count="1" name="Test4">
+      <classes>
+      <class name="TESTNGCODE.InsertCustomer"/>
+      </classes>
+      </test>
+      
+      
+   
+  
+</suite> <!-- Suite -->
